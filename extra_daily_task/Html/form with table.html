@@ -1,0 +1,137 @@
+<html>
+<head>
+
+  <title>Html Form With Table</title>
+
+</head>
+
+<body>
+
+  <fieldset>
+  <legend>Registration Form </legend>
+   <form method="post" enctype="multipart/form-data">
+            <table border="1" cellspacing="0" cellpadding="8" >
+                <tr>
+                    <th colspan="2">Registration Form</th>
+                </tr>
+				
+				 <tr>
+                    <td>First Name :</td>
+                    <td><input type="text" name="firstname" size="50" required></td>
+                </tr>
+				
+				 <tr>
+                    <td>Last Name :</td>
+                    <td><input type="text" name="lastname" size="50" required></td>
+                </tr>
+				
+				 <tr>
+                    <td>User Name :</td>
+                    <td><input type="text" name="username" size="50" required></td>
+                </tr>
+				
+				<tr>
+				  <td>Email :</td>
+				  <td><input type="email" name="email" size="50" required ></td>
+				</tr>
+				
+				<tr>
+				 <td>Password </td>
+				 <td><input type="password" name="password"  size="50" ></td>
+				</tr>
+				
+				<tr>
+				 <td>Date </td>
+				 <td><input type="date" name="date" ></td>
+				</tr>
+				
+				<tr>
+				 <td>Time </td>
+				 <td><input type="time" name="time" ></td>
+				</tr>
+				
+				<tr>
+				 <td>Color </td>
+				 <td><input type="color" name="color" ></td>
+				</tr>
+				
+				<tr>
+				 <td>Upload file/image : </td>
+				 <td><input type="file" name="file" required></td>
+				</tr>
+				
+				<tr>
+				 <td>Date/Time : </td>
+				 <td><input type="datetime-local" name="datetime-local" required></td>
+				</tr>
+				
+				<tr>
+				 <td>Gender : </td>
+				 <td>Male : <input type="radio" name="gender" value="Male">
+	                 Female :<input type="radio" name="gender" value="Female"></td>
+				</tr>
+				
+				<tr>
+				 <td>Language : </td>
+				 <td>Hindi : <input type="checkbox" name="lag[]" value="Hindi">
+	                 Gujarati : <input type="checkbox" name="lag[]" value="Gujarati">
+	                 English : <input type="checkbox" name="lag[]" value="English">
+	                 Other : <input type="checkbox" name="lag[]" value="Other"></td>
+				</tr>
+				
+				<tr>
+				 <td>Month </td>
+				 <td><input type="month" name="month" required></td>
+				</tr>
+				
+				<tr>
+				 <td>Week </td>
+				 <td><input type="week" name="week" required></td>
+				</tr>
+				
+				<tr>
+				 <td>Mobile Number </td>
+				 <td><input type="text" name="number" required></td>
+				</tr>
+				
+				<tr>
+				 <td>Country :  </td>
+				 <td><select name="country">
+		             <option value="">----Select Country----</option>
+		             <option value="India">India</option>
+		             <option value="Japan">Japan</option>
+		             <option value="USA">USA</option>
+		
+	                </select></td>
+				</tr>
+				
+				<tr>
+				 <td>Address : </td>
+				 <td><textarea name="address" cols="30" rows="5"></textarea></td>
+				</tr>
+				
+				<tr>
+				 <td>Hidden </td>
+				 <td><input type="hidden" name="hidden"></td>
+				</tr>
+				
+				<tr>
+				 <td>Image </td>
+				 <td><input type="image" name="image"></td>
+				</tr>
+				
+				<tr>
+				 <td>Reset </td>
+				 <td><input type="reset" name="reset"></td>
+				</tr>
+				
+				 <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" value="Submit">
+                    </td>
+				
+	        </table>		
+    </form>
+  </fieldset>
+</body>
+</html>
