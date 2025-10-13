@@ -1,0 +1,45 @@
+[
+    {
+        "id": "T68ebef62f1a63",
+        "title": "new issue",
+        "description": "new issue",
+        "category": "IT",
+        "priority": "Medium",
+        "status": "closed",
+        "assigned_to": "tech",
+        "date": "2025-10-12 23:41:47",
+        "created_by": "admin"
+    },
+    {
+        "id": "T68eb7feb34577",
+        "title": "Design task pending",
+        "description": "Design task pending",
+        "category": "IT",
+        "priority": "High",
+        "status": "open",
+        "assigned_to": "employee",
+        "date": "2025-10-12 12:16:11",
+        "created_by": "admin"
+    },
+    {
+        "id": "T68eb7f4e44442",
+        "title": "salary not credit",
+        "description": "salary not credit",
+        "category": "IT",
+        "priority": "High",
+        "status": "closed",
+        "assigned_to": "admin",
+        "date": "2025-10-12 12:13:34",
+        "created_by": "tech"
+    },
+    {
+        "id": "T68eb6cebe963c",
+        "title": "bug in project",
+        "description": "bug in project",
+        "category": "IT",
+        "priority": "Medium",
+        "status": "open",
+        "assigned_to": "tech",
+        "date": "2025-10-12 10:55:07"
+    }
+]
