@@ -1,0 +1,14 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background: #fafafa;
+}
+
+.post {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+textarea, input {
+    width: 100%;
+}
